@@ -1,0 +1,41 @@
+body {text-align: center;
+      background-color: #C6EF90;
+      font-family: Garamond, sans-serif;
+      color: #006400;}
+
+h1 {font-size: 40px;
+    margin-bottom: 0px;}
+
+h2 {font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-weight: normal;}
+
+label {font-size: 27px;
+       color: #006400;}
+
+img {margin-bottom: 15px;}
+
+input {font-size: 27px;
+       background-color: #D8FEAC;
+       color: #006400;
+       padding: 4px;
+       font-family: Garamond, sans-serif;
+       outline: none;}
+
+button {color: #006400;
+        background-color: #D8FEAC;
+        font-size: 25px;
+        font-family: Garamond, sans-serif;
+        padding: 4px;}
+
+button:hover {color: #D8FEAC;
+              background-color: #006400;
+              cursor: pointer;}
+
+p {font-size: 27px;
+   margin-bottom: 0px;}
+
+a:link,
+a:visited {font-size: 27px;
+           color: #006400;}

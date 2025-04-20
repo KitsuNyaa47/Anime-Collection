@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the Anime</title>
+    <link rel="stylesheet" href="static/style_anime.css">
+</head>
+<body>
+
+<h1>Guess the Anime</h1>
+<hr>
+<h2>Enter your answer below:</h2>
+<br>
+<img src="{{ url_for('static', filename=image) }}" alt="Anime Image" height="400">
+<br>
+<form method="post">
+    <label for="guess">Your Answer: </label>
+    <input type="text" name="guess" id="guess" required>
+    <button type="submit" name="submit_guess" style=margin-left:20px;">Submit</button>
+</form>
+<br>
+<form method="post">
+    <button type="submit" name="previous" style="margin-right: 20px;">Previous</button>
+    <button type="submit" name="next" style="margin-left: 20px;">Next</button>
+    <br><br>
+    <button type="submit" name="anime_reveal">Reveal Answer</button>
+</form>
+
+<p>{{ message }}</p>
+
+{% if answer %}
+    <p><strong>Answer: </strong>{{ answer }}</p>
+{% endif %}
+
+<p>Click here to return to the homepage: </p><a href="{{ url_for('home') }}">👾 Home 👾</a>
+</body>
+</html>

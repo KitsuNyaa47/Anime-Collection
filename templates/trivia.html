@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anime Trivia</title>
+    <link rel="stylesheet" href="static/style_trivia.css">
+</head>
+<body>
+
+<h1>Anime Trivia</h1>
+<hr>
+<h2>Answer the questions below:</h2>
+<img src="static/power.jpg" alt="Power" height="400">
+<br>
+<p>{{ question }}</p>
+<form method="post">
+    <label for="guess">Your answer: </label>
+    <input type="text" name="guess" id="guess" required>
+    <button type="submit" name="guess" style="margin-left: 20px;">Submit</button>
+    <br>
+</form>
+
+<form method="post">
+    <button type="submit" name="previous" style="margin-top: 20px;">Previous</button>
+    <button type="submit" name="next" style="margin-left: 30px; margin-bottom: 20px;">Next</button>
+    <br>
+    <button type="submit" name="reveal">Reveal Answer</button>
+</form>
+<br>
+
+<p>{{ message }}</p>
+
+{% if answer %}
+    <p><strong>Answer: </strong>{{ answer }}</p>
+{% endif %}
+
+<h2>Click on the link below to return to the homepage: </h2><a href="{{ url_for('home') }}">👾 Home 👾</a>
+
+</body>
+</html>

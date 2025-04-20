@@ -1,0 +1,40 @@
+body {text-align: center;
+      background-color: #9FE6FF;
+      color: #004E6A;
+      font-family: Garamond, sans-serif;}
+
+h1 {font-size: 40px;
+    margin-bottom: 0px;}
+
+h2 {font-size: 30px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 5px;}
+
+p {font-size: 27px;
+   font-weight: normal;
+   margin-top: 5px;
+   margin-bottom: 10px;}
+
+label {font-size: 27px;}
+
+input {font-size: 27px;
+       background-color: #C1EFFF;
+       color: #004E6A;
+       outline: none;
+       font-family: Garamond, sans-serif;
+       padding: 4px;}
+
+button {font-size: 25px;
+        color: #004E6A;
+        background-color: #C1EFFF;
+        font-family: Garamond, sans-serif;
+        padding: 4px;}
+
+button:hover {color: #C1EFFF;
+              background-color: #004E6A;
+              cursor: pointer;}
+
+a:link,
+a:visited {font-size: 27px;
+           color: #004E6A;}

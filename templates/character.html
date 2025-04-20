@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the Character</title>
+    <link rel="stylesheet" href="static/style_character.css">
+</head>
+<body>
+
+<h1>Guess the Anime Character</h1>
+<hr>
+<h2>Enter only the character's first name below:</h2>
+<br>
+<img src="{{ url_for('static', filename=image) }}" alt="Anime Picture" height="400">
+<br>
+<form method="post">
+    <label for="guess">Your answer: </label>
+    <input type="text" name="guess" id="guess" required>
+    <button type="submit" name="submit_guess" style="margin-left: 10px;">Submit</button>
+</form>
+<br>
+
+<form method="post">
+    <button type="submit" name="previous" style="margin-right: 20px; margin-top: 0px;">Previous</button>
+    <button type="submit" name="next" style="margin-left: 20px;">Next</button>
+    <br>
+    <button type="submit" name="character_reveal" style="margin-top: 20px;">Reveal Answer</button>
+</form>
+<br>
+<p>{{ message }}</p>
+
+{% if answer %}
+    <p><strong>Answer: </strong>{{ answer }}</p>
+{% endif %}
+<br>
+<h2>Click on the link below to return to the homepage:</h2><br><a href="{{ url_for('home') }}">👾 Home 👾</a>
+
+</body>
+</html>
