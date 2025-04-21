@@ -23,10 +23,15 @@
     <button type="submit" name="previous" style="margin-right: 20px;">Previous</button>
     <button type="submit" name="next" style="margin-left: 20px;">Next</button>
     <br><br>
+    <button type="submit" name="anime_hint" style="margin-right: 40px;">Hint</button>
     <button type="submit" name="anime_reveal">Reveal Answer</button>
 </form>
 
 <p>{{ message }}</p>
+
+{% if hint %}
+    <p><strong>Hint: </strong>{{ hint }}</p>
+{% endif %}
 
 {% if answer %}
     <p><strong>Answer: </strong>{{ answer }}</p>

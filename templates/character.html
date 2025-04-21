@@ -24,10 +24,14 @@
     <button type="submit" name="previous" style="margin-right: 20px; margin-top: 0px;">Previous</button>
     <button type="submit" name="next" style="margin-left: 20px;">Next</button>
     <br>
+    <button type="submit" name="character_hint" style="margin-right: 40px;">Hint</button>
     <button type="submit" name="character_reveal" style="margin-top: 20px;">Reveal Answer</button>
 </form>
-<br>
 <p>{{ message }}</p>
+
+{% if hint %}
+    <p><strong>Hint: </strong>{{ hint }}</p>
+{% endif %}
 
 {% if answer %}
     <p><strong>Answer: </strong>{{ answer }}</p>
