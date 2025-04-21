@@ -2,6 +2,8 @@ A collection of anime trivia games made using Flask (python), HTML and CSS.
 
 Reveals correct answers when prompted, cycles through questions and images and responds to correct/incorrect answers.
 
+A hint prompt has also been added.
+
 ![Screenshot (128)](https://github.com/user-attachments/assets/6179017b-4055-4058-9635-2c544d007d6a)
 
 ![Screenshot (129)](https://github.com/user-attachments/assets/a2181a5b-1b31-48c8-9f45-6f5755251c54)
