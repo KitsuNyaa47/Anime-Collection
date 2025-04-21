@@ -17,3 +17,7 @@ Reveals correct answers when prompted, cycles through questions and images and r
 ![Screenshot (134)](https://github.com/user-attachments/assets/422f75c8-0eb6-4768-901c-cb517f5a34f2)
 
 ![Screenshot (135)](https://github.com/user-attachments/assets/32f6ab6e-c897-46ec-8cc1-4601ce2d365f)
+
+![Screenshot (136)](https://github.com/user-attachments/assets/942cfbf1-edf1-47ef-83d1-35b2c7ac1371)
+
+![Screenshot (137)](https://github.com/user-attachments/assets/c1ffc0d1-15bd-4bdb-9694-aa62705dffd0)
