@@ -8,8 +8,6 @@ A hint prompt has also been added.
 
 ![Screenshot (129)](https://github.com/user-attachments/assets/a2181a5b-1b31-48c8-9f45-6f5755251c54)
 
-![Screenshot (130)](https://github.com/user-attachments/assets/5455b44d-bee2-4dee-80fc-ac8d6532c72e)
-
 ![Screenshot (131)](https://github.com/user-attachments/assets/4b50f0d3-161d-43e6-aab0-6f6ab6a6b918)
 
 ![Screenshot (132)](https://github.com/user-attachments/assets/c676190f-0292-4492-b12f-0688375e6981)
